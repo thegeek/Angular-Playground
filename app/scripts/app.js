@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('AngularPlaygroundApp', [])
+angular.module('AngularPlaygroundApp', ['ngRoute'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
